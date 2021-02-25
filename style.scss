@@ -1,0 +1,124 @@
+// Variabel
+$accentColor1: #9C715E;
+$accentColor2: #f4eeeb;
+$accentColor3: #29180F;
+
+// Navbar
+.navbar {
+    background-color: #9C715E;
+}
+
+// Section Title
+.section-title {
+    font-weight: bold;
+    color: $accentColor3;
+    text-shadow: 5px 5px $accentColor2;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+// Button
+.btn-submit {
+    background-color: $accentColor1;
+    color: #fff;
+
+    &:hover {
+        opacity: .9;
+        color: #fff;
+    }
+}
+
+// Jumbotron
+.jumbotron {
+    position: relative;
+    padding-top: 7rem;
+    background-color: $accentColor2;
+    background-image: url("img/hero-img2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .bi {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .display-4 {
+        margin-top: 10px;
+        text-shadow: 3px 3px $accentColor1;
+    }
+
+    p {
+        letter-spacing: 1px;
+    }
+}
+
+
+// About Section
+.about-section {
+    .about-icon {
+        margin-bottom: 20px;
+    }
+
+    .bi {
+        color: $accentColor1;
+        font-size: 2rem;
+        text-shadow: 5px 5px $accentColor2;
+    }
+}
+
+
+// Project Section
+#project {
+    background-color: $accentColor2;
+
+    .card-image {
+        position: relative;
+    }
+
+    .card-overlay {
+        // background-color: rgba(156, 112, 94, 0.7);
+        background-color: rgba(41, 24, 15, 0.8);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: calc(.25rem - 1px);
+        opacity: 0;
+        transition: .5s ease;
+        cursor: pointer;
+
+        .bi {
+            color: #fff;
+            font-size: 1.7rem;
+        }
+    }
+
+    .card-image:hover .card-overlay {
+        opacity: 1;
+    }
+}
+
+footer {
+    background-color: $accentColor1;
+
+    .copyright {
+        a:hover {
+            color: $accentColor3 !important;
+        }
+    }
+
+    .totopbutton {
+        font-size: 2rem;
+        opacity: .7;
+
+        a {
+            color: $accentColor3;
+        }
+    }
+}

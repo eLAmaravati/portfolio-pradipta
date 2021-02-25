@@ -1,0 +1,94 @@
+.navbar {
+  background-color: #9C715E;
+}
+
+.section-title {
+  font-weight: bold;
+  color: #29180F;
+  text-shadow: 5px 5px #f4eeeb;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.btn-submit {
+  background-color: #9C715E;
+  color: #fff;
+}
+.btn-submit:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.jumbotron {
+  position: relative;
+  padding-top: 7rem;
+  background-color: #f4eeeb;
+  background-image: url("img/hero-img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.jumbotron .bi {
+  color: #fff;
+  font-size: 2rem;
+}
+.jumbotron .display-4 {
+  margin-top: 10px;
+  text-shadow: 3px 3px #9C715E;
+}
+.jumbotron p {
+  letter-spacing: 1px;
+}
+
+.about-section .about-icon {
+  margin-bottom: 20px;
+}
+.about-section .bi {
+  color: #9C715E;
+  font-size: 2rem;
+  text-shadow: 5px 5px #f4eeeb;
+}
+
+#project {
+  background-color: #f4eeeb;
+}
+#project .card-image {
+  position: relative;
+}
+#project .card-overlay {
+  background-color: rgba(41, 24, 15, 0.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: calc(.25rem - 1px);
+  opacity: 0;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#project .card-overlay .bi {
+  color: #fff;
+  font-size: 1.7rem;
+}
+#project .card-image:hover .card-overlay {
+  opacity: 1;
+}
+
+footer {
+  background-color: #9C715E;
+}
+footer .copyright a:hover {
+  color: #29180F !important;
+}
+footer .totopbutton {
+  font-size: 2rem;
+  opacity: 0.7;
+}
+footer .totopbutton a {
+  color: #29180F;
+}/*# sourceMappingURL=style.css.map */
